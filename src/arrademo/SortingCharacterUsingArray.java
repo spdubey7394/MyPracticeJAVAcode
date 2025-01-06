@@ -10,8 +10,8 @@ public class SortingCharacterUsingArray {
 		
 		String S[]= {"Gucci","LouisVittion","Armani","Rolex","Pagani"};
 		
-		System.out.println("Characters before sorting" + Arrays.toString(ch));
-		
+		System.out.println("Characters before sorting" + Arrays.toString(ch));// Arrays is a inbuilt class and toString is amethod
+		//Arrays.sort is a method to sort;
 		Arrays.sort(ch);
 		
 		System.out.println("Characters after sorting" + Arrays.toString(ch));
