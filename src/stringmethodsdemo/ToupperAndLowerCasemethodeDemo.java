@@ -10,7 +10,7 @@ public class ToupperAndLowerCasemethodeDemo {
   // example to find whether string is having john or not:
 		
 		String name="John Kennedy";
-		System.out.println(name.toLowerCase().contains("john")); // true, first converting to lower case and then checking it 
+		System.out.println(name.toLowerCase().contains("john")); // true, first converting to lower case and then checking it. 
 		
 
 	}
