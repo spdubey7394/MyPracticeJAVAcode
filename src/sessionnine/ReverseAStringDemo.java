@@ -19,9 +19,9 @@ public class ReverseAStringDemo {
 		System.out.println("The reverse string is " + rev);
         sc.close(); */
 		
-		//Approach 2 - without using string method and converting string to array
+		//Approach 2 - without using string method(length and character) and converting string to array
 		
-		System.out.println("Please enter a string to reverse");
+	/*	System.out.println("Please enter a string to reverse");
 		Scanner sc=new Scanner(System.in);
 		String s=sc.nextLine();
 		String rev="";
@@ -32,6 +32,22 @@ public class ReverseAStringDemo {
 			rev=rev+ch[i];
 		}
 		System.out.println("The reverse string is " + rev);
-		sc.close();
+		sc.close(); */
+		
+		//Approach 3 - Using StringBuffer class and it is different than String class and also using reverse() method of StringBuffer
+		
+	/*	StringBuffer s=new StringBuffer();
+	     System.out.println("please enter the string to reverse");
+	     Scanner sc=new Scanner(System.in);
+	     s.append( sc.nextLine());
+	     System.out.println("reverse string using array method " + s.reverse()); */
+	     
+	     //Approach 4- Using StringBuilder
+	     
+	     StringBuilder s=new StringBuilder();
+	     System.out.println("please enter the string to reverse");
+	     Scanner sc=new Scanner(System.in);
+	     s.append( sc.nextLine());
+	     System.out.println("reverse string using array method " + s.reverse());
 	}
 }
