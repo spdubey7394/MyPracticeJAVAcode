@@ -47,7 +47,9 @@ public class ReverseAStringDemo {
 	     StringBuilder s=new StringBuilder();
 	     System.out.println("please enter the string to reverse");
 	     Scanner sc=new Scanner(System.in);
-	     s.append( sc.nextLine());
-	     System.out.println("reverse string using array method " + s.reverse());
+	     s.append(sc.nextLine());
+	     System.out.println("reverse string using array method " );
+	     System.out.println(s.reverse());
+
 	}
 }
