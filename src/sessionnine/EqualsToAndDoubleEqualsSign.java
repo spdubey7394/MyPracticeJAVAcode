@@ -35,11 +35,11 @@ public class EqualsToAndDoubleEqualsSign {
 		String s7= ("Welcome");
 		String s8= new String("Welcome");
 		String s9=s8;
-		System.out.println(s7==s8); //false  //it is comparing the objects s5 and s6
+		System.out.println(s7==s8); //false  //it is comparing the objects s7 and s8
 		System.out.println(s7.equals(s8)); //true;
 		
 		//s9 is a clone object of s8
-		System.out.println(s8==s9); //true //it is comparing the objects s7 and s8
+		System.out.println(s8==s9); //true //it is comparing the objects s8 and s9
 		System.out.println(s8.equals(s9)); //true - comparing values
 		
 		
