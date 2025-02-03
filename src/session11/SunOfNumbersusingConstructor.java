@@ -9,8 +9,8 @@ public class SunOfNumbersusingConstructor
 	// Approach 1: using default constructor
 	SunOfNumbersusingConstructor()
 	{
-	//	x=200;
-	//	y=300;
+		x=200;
+		y=300;
 		System.out.println("The sum of numbers: " + (x+y));
 	}
 	
