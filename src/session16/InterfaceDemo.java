@@ -50,6 +50,8 @@ public class InterfaceDemo implements Shape // class can implement an interface
 		
 		Shape.square(); //static class, can be directly accessed using interface "interfacename.method"
 		
+		System.out.println(Shape.length*Shape.breadth); //accessing static variable directly using interface name
+		
 		
 			
 
